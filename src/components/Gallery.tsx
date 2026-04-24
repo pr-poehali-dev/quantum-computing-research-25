@@ -20,82 +20,52 @@ const galleryItems = {
   en: [
     {
       id: 1,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3862.JPG-QFjEqVJxprhU4vjLcesRXlZsTk7pRM.jpeg",
-      title: "Archway Portrait",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/1f2e1af8-df47-4e22-a84d-2b007e50f353.jpeg",
+      title: "Sergei Korolev — Official Portrait",
     },
     {
       id: 2,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3805.JPG-yq7ymSGUhJV4rq9yyyquEOMeXXYLDp.jpeg",
-      title: "Classical Courtyard",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/0574945e-8445-4e8b-b4c2-1be5ff425b4f.jpg",
+      title: "Korolev and Gagarin before the flight, April 12, 1961",
     },
     {
       id: 3,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3938.JPG-OmXjCML5NpcJKstfM3mOWBFPt1HDzH.jpeg",
-      title: "Tunnel Lights",
-    },
-    {
-      id: 4,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3768.JPG-Q3wacl3wQVQUhGT4jgw6Rf3OVCni3R.jpeg",
-      title: "Piano Moment",
-    },
-    {
-      id: 5,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3917.JPG-iPCjoD8pZGUcg5qzfRnrkOrb14tK1E.jpeg",
-      title: "Urban Gallery",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/28a05b02-3d28-4c7c-a087-01bc734e822a.jpg",
+      title: "Busts of Korolev and Gagarin, Simferopol",
     },
   ],
   de: [
     {
       id: 1,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3862.JPG-QFjEqVJxprhU4vjLcesRXlZsTk7pRM.jpeg",
-      title: "Bogenportrat",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/1f2e1af8-df47-4e22-a84d-2b007e50f353.jpeg",
+      title: "Sergei Koroljow — Offizielles Porträt",
     },
     {
       id: 2,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3805.JPG-yq7ymSGUhJV4rq9yyyquEOMeXXYLDp.jpeg",
-      title: "Klassischer Innenhof",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/0574945e-8445-4e8b-b4c2-1be5ff425b4f.jpg",
+      title: "Koroljow und Gagarin vor dem Flug, 12. April 1961",
     },
     {
       id: 3,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3938.JPG-OmXjCML5NpcJKstfM3mOWBFPt1HDzH.jpeg",
-      title: "Tunnellichter",
-    },
-    {
-      id: 4,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3768.JPG-Q3wacl3wQVQUhGT4jgw6Rf3OVCni3R.jpeg",
-      title: "Am Klavier",
-    },
-    {
-      id: 5,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3917.JPG-iPCjoD8pZGUcg5qzfRnrkOrb14tK1E.jpeg",
-      title: "Stadtgalerie",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/28a05b02-3d28-4c7c-a087-01bc734e822a.jpg",
+      title: "Büsten von Koroljow und Gagarin, Simferopol",
     },
   ],
   ru: [
     {
       id: 1,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3862.JPG-QFjEqVJxprhU4vjLcesRXlZsTk7pRM.jpeg",
-      title: "Портрет в арке",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/1f2e1af8-df47-4e22-a84d-2b007e50f353.jpeg",
+      title: "Сергей Павлович Королёв — официальный портрет",
     },
     {
       id: 2,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3805.JPG-yq7ymSGUhJV4rq9yyyquEOMeXXYLDp.jpeg",
-      title: "Классический двор",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/0574945e-8445-4e8b-b4c2-1be5ff425b4f.jpg",
+      title: "Королёв и Гагарин перед полётом, 12 апреля 1961",
     },
     {
       id: 3,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3938.JPG-OmXjCML5NpcJKstfM3mOWBFPt1HDzH.jpeg",
-      title: "Огни туннеля",
-    },
-    {
-      id: 4,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3768.JPG-Q3wacl3wQVQUhGT4jgw6Rf3OVCni3R.jpeg",
-      title: "За роялем",
-    },
-    {
-      id: 5,
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3917.JPG-iPCjoD8pZGUcg5qzfRnrkOrb14tK1E.jpeg",
-      title: "Городская галерея",
+      image: "https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/bucket/28a05b02-3d28-4c7c-a087-01bc734e822a.jpg",
+      title: "Бюсты Королёва и Гагарина, Симферополь",
     },
   ],
 }
@@ -129,7 +99,7 @@ export default function Gallery({ language }: GalleryProps) {
           <div className="line-accent"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {items.map((item) => (
             <div
               key={item.id}
