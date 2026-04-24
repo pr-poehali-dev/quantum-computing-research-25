@@ -9,19 +9,19 @@ interface NavigationProps {
 const translations = {
   en: {
     biography: "Biography",
-    concerts: "Concerts",
+    concerts: "Milestones",
     gallery: "Gallery",
     contact: "Contact",
   },
   de: {
     biography: "Biographie",
-    concerts: "Konzerte",
+    concerts: "Meilensteine",
     gallery: "Galerie",
     contact: "Kontakt",
   },
   ru: {
     biography: "Биография",
-    concerts: "Концерты",
+    concerts: "Достижения",
     gallery: "Галерея",
     contact: "Контакт",
   },
@@ -66,7 +66,7 @@ export default function Navigation({ language, onLanguageChange }: NavigationPro
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className={`${logoColor} font-serif text-2xl font-normal tracking-wide transition-colors duration-300`}>
-            A. Voss
+            С. П. Королёв
           </div>
 
           {/* Desktop Menu */}

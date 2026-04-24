@@ -4,19 +4,19 @@ interface HeroProps {
 
 const translations = {
   en: {
-    title: "Alexander Voss",
-    subtitle: "Classical Pianist",
-    description: "A virtuoso performer captivating audiences at the world's most prestigious concert halls",
+    title: "Sergei Korolev",
+    subtitle: "Chief Designer of the Soviet Space Program",
+    description: "The man who launched humanity into the cosmos — engineer, visionary, and father of the Space Age",
   },
   de: {
-    title: "Alexander Voss",
-    subtitle: "Klassischer Pianist",
-    description: "Ein virtuoser Performer, der Publikum in den renommiertesten Konzertsalen der Welt fasziniert",
+    title: "Sergei Koroljow",
+    subtitle: "Chefkonstrukteur des sowjetischen Raumfahrtprogramms",
+    description: "Der Mann, der die Menschheit in den Kosmos brachte — Ingenieur, Visionär und Vater des Weltraumzeitalters",
   },
   ru: {
-    title: "Александр Фосс",
-    subtitle: "Классический пианист",
-    description: "Виртуозный исполнитель, очаровывающий публику в престижнейших концертных залах мира",
+    title: "Сергей Павлович Королёв",
+    subtitle: "Главный конструктор советской космической программы",
+    description: "Человек, открывший человечеству путь в космос — инженер, провидец и отец космической эры",
   },
 }
 
@@ -28,8 +28,8 @@ export default function Hero({ language }: HeroProps) {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/DSCF3797.JPG-D5CA7ICwqzRlSb4xwdgFIdtxI4Epof.jpeg"
-          alt="Pianist performing"
+          src="https://cdn.poehali.dev/projects/ef5d41d9-6718-4ae8-a1d9-4a17507c0c90/files/32f72065-5ccf-403f-a31e-7739e78eb23d.jpg"
+          alt="Rocket launch at Baikonur"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-charcoal/35"></div>
