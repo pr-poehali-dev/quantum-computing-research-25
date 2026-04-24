@@ -5,15 +5,12 @@ interface ConcertsProps {
 const translations = {
   en: {
     heading: "Key Milestones",
-    learnMore: "Learn More",
   },
   de: {
     heading: "Wichtige Meilensteine",
-    learnMore: "Mehr erfahren",
   },
   ru: {
     heading: "Ключевые события",
-    learnMore: "Подробнее",
   },
 }
 
@@ -114,11 +111,7 @@ export default function Concerts({ language }: ConcertsProps) {
                   <p className="text-charcoal/70 mb-1">{concert.venue}</p>
                   <small className="text-taupe">{concert.location}</small>
                 </div>
-                <div className="flex justify-start md:justify-end">
-                  <button className="text-gold hover:text-gold/80 transition-colors text-sm font-medium">
-                    {t.learnMore} &rarr;
-                  </button>
-                </div>
+
               </div>
             </div>
           ))}

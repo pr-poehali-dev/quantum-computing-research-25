@@ -89,12 +89,6 @@ export default function Navigation({ language, onLanguageChange }: NavigationPro
             >
               {t.gallery}
             </a>
-            <a
-              href="#contact"
-              className={`text-sm ${navLinkColor} ${navLinkHoverColor} transition-colors duration-300`}
-            >
-              {t.contact}
-            </a>
           </div>
 
           {/* Language Selector */}
@@ -146,12 +140,7 @@ export default function Navigation({ language, onLanguageChange }: NavigationPro
             >
               {t.gallery}
             </a>
-            <a
-              href="#contact"
-              className={`block text-sm ${mobileLinkColor} hover:text-gold transition-colors duration-300 py-2`}
-            >
-              {t.contact}
-            </a>
+
           </div>
         )}
       </div>

@@ -4,7 +4,6 @@ import Hero from "@/components/Hero"
 import Biography from "@/components/Biography"
 import Concerts from "@/components/Concerts"
 import Gallery from "@/components/Gallery"
-import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
 
 export default function Index() {
@@ -17,7 +16,6 @@ export default function Index() {
       <Biography language={language} />
       <Concerts language={language} />
       <Gallery language={language} />
-      <Contact language={language} />
       <Footer language={language} />
     </div>
   )
